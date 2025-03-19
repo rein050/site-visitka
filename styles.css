@@ -54,7 +54,7 @@ nav ul li a:hover {
     background: url('https://plus.unsplash.com/premium_photo-1670459706981-656376553b5f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D') no-repeat center center/cover;
     color: #fff;
     text-align: center;
-    padding: 100px 0;
+    padding: 0px 0 130px 0px;
 }
 
 .hero-content {
