@@ -1,4 +1,13 @@
-```javascript
-// Ваш JavaScript код
-console.log("Сайт визитка загружен");
-```
+// Плавная прокрутка к секциям
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
